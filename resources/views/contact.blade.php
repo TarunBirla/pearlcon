@@ -3049,207 +3049,12 @@
             justify-content: center;
             flex-shrink: 0;
         }
-font-size: 10px;
-                padding: 4px 8px;
-            }
-        }
-
-        :focus-visible {
-            outline: 2px solid var(--amber);
-            outline-offset: 3px;
-        }
-
-        .request-page {
-            /* min-height: 100vh; */
-            padding: 50px 20px;
-            background:
-                radial-gradient(circle at 10% 10%,
-                    rgba(91, 76, 159, 0.16),
-                    transparent 35%),
-                radial-gradient(circle at 90% 20%,
-                    rgba(233, 132, 35, 0.10),
-                    transparent 32%),
-                #f4f6f8;
-        }
-
-        .request-container {
-            width: 100%;
-            max-width: 980px;
-            margin: 0 auto;
-        }
-
-        .contact-form {
-            display: flex;
-            flex-direction: column;
-            gap: 22px;
-        }
-
-        .contact-form-row {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-        }
-
-        .contact-field {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-        }
-
-        .contact-field label {
-            font-size: 13px;
-            font-weight: 600;
-            color: var(--text);
-        }
-
-        .contact-field label span {
-            color: var(--amber);
-        }
-
-        .contact-field input,
-        .contact-field textarea {
-            width: 100%;
-            padding: 14px 16px;
-            border: 1px solid var(--line);
-            border-radius: 10px;
-            background: #fff;
-            color: var(--text);
-            font-family: "IBM Plex Sans", sans-serif;
-            font-size: 14px;
-            outline: none;
-            transition:
-                border-color 0.25s,
-                box-shadow 0.25s;
-        }
-
-        .contact-field textarea {
-            min-height: 150px;
-            resize: vertical;
-        }
-
-        .contact-field input:focus,
-        .contact-field textarea:focus {
-            border-color: var(--amber);
-            box-shadow: 0 0 0 3px rgba(233, 132, 35, 0.10);
-        }
-
-        .contact-field input::placeholder,
-        .contact-field textarea::placeholder {
-            color: #9aa3ad;
-        }
-
-        .contact-success {
-            margin-bottom: 20px;
-            padding: 14px 18px;
-            border-radius: 10px;
-            background: #eaf8ee;
-            border: 1px solid #b8e4c3;
-            color: #217a3a;
-            font-size: 14px;
-        }
-
-        .contact-errors {
-            margin-bottom: 20px;
-            padding: 14px 18px;
-            border-radius: 10px;
-            background: #fff1f1;
-            border: 1px solid #f0bcbc;
-            color: #b42318;
-            font-size: 14px;
-        }
-
-        .contact-errors ul {
-            list-style: disc;
-            padding-left: 20px;
-        }
-
-        @media (max-width: 700px) {
-            .contact-form-row {
-                grid-template-columns: 1fr;
-                gap: 22px;
-            }
-        }
-
-        /* Contact Page Custom Styles */
-        .contact-hero {
-            background: radial-gradient(120% 90% at 15% -10%, #16283f 0%, #0a1626 55%, #060d18 100%);
-            color: #ffffff;
-            padding: 64px 0 54px;
-            text-align: center;
-            position: relative;
-        }
-
-        .contact-hero h1 {
-            font-size: 38px;
-            font-weight: 700;
-            color: #ffffff;
-            margin-bottom: 12px;
-        }
-
-        .contact-hero p {
-            color: #8b9aae;
-            font-size: 16px;
-            max-width: 640px;
-            margin: 0 auto;
-        }
-
-        .contact-wrapper {
-            max-width: 1140px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: 380px 1fr;
-            gap: 32px;
-            align-items: start;
-        }
-
-        @media (max-width: 992px) {
-            .contact-wrapper {
-                grid-template-columns: 1fr;
-                gap: 24px;
-            }
-        }
-
-        .contact-info-cards {
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-        }
-
-        .contact-info-card {
-            background: #ffffff;
-            border-radius: 14px;
-            padding: 22px;
-            border: 1px solid var(--line);
-            box-shadow: 0 4px 18px rgba(10, 22, 38, 0.04);
-            display: flex;
-            align-items: flex-start;
-            gap: 16px;
-            transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease), border-color 0.3s var(--ease);
-        }
-
-        .contact-info-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(10, 22, 38, 0.08);
-            border-color: rgba(233, 132, 35, 0.5);
-        }
-
-        .contact-card-icon {
-            width: 44px;
-            height: 44px;
-            border-radius: 12px;
-            background: rgba(233, 132, 35, 0.12);
-            color: var(--amber);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-        }
 
         .contact-card-icon svg {
             width: 22px;
             height: 22px;
         }
-        .contact-card-body h2,
+
         .contact-card-body h4 {
             font-size: 16px;
             font-weight: 600;
@@ -3288,7 +3093,6 @@ font-size: 10px;
             margin-bottom: 24px;
         }
 
-        .contact-form-header h2,
         .contact-form-header h3 {
             font-size: 22px;
             font-weight: 700;
@@ -3354,7 +3158,7 @@ font-size: 10px;
                         </svg>
                     </div>
                     <div class="contact-card-body">
-                        <h2>Email Us</h2>
+                        <h4>Email Us</h4>
                         <p>For Enquires and Support:</p>
                         <a href="mailto:sales@pearlcon.com">sales@pearlcon.com</a>
                     </div>
@@ -3367,7 +3171,7 @@ font-size: 10px;
                         </svg>
                     </div>
                     <div class="contact-card-body">
-                        <h2>Call Us</h2>
+                        <h4>Call Us</h4>
                         <p>Contact for UK : <a href="tel:+441234440530">+44 1234 440530</a></p>
                     </div>
                 </div>
@@ -3380,7 +3184,7 @@ font-size: 10px;
                         </svg>
                     </div>
                     <div class="contact-card-body">
-                        <h2>Head Office</h2>
+                        <h4>Head Office</h4>
                         <p style="margin-bottom: 10px;">38f, Chigwell Ln, Debden, Loughton IG10 3NY, United Kingdom</p>
                         <a href="https://maps.google.com/?q=Suite+211+Sterling+House,+Langston+Road,+Loughton+IG10+3TS,+United+Kingdom" target="_blank" rel="noopener" class="btn btn-primary btn-sm" style="display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; font-size: 13px; text-decoration: none;">
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -3389,7 +3193,39 @@ font-size: 10px;
                             </svg>
                             Get Direction
                         </a>
+
+                                           
+                     </div>
+                </div>
+                
+                 <div class="contact-info-card">
+                    <div class="contact-card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
                     </div>
+                    <div class="contact-card-body">
+                        <h4>Saudi Arabia Head Office</h4>
+                        <p style="margin-bottom: 10px;">
+                            Office 5, Bld 2996 Najd Street, Al Tubayshi, Dammam, 32233, Saudi Arabia
+                        </p>
+                        
+                        <a href="https://maps.google.com/?q=Office+5,+Bld+2996+Najd+Street,+Al+Tubayshi,+Dammam,+32233,+Saudi+Arabia"
+                           target="_blank"
+                           rel="noopener"
+                           class="btn btn-primary btn-sm"
+                           style="display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; font-size: 13px; text-decoration: none;">
+                        
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+                                <circle cx="12" cy="9" r="2.5"/>
+                            </svg>
+                        
+                            Get Direction
+                        </a>
+                                           
+                     </div>
                 </div>
 
                 <div class="contact-info-card">
@@ -3400,7 +3236,7 @@ font-size: 10px;
                         </svg>
                     </div>
                     <div class="contact-card-body">
-                        <h2>Working Hours</h2>
+                        <h4>Working Hours</h4>
                         <p>Monday - Friday<br>9:00 AM - 5:00 PM (GMT)</p>
                     </div>
                 </div>
@@ -3408,9 +3244,24 @@ font-size: 10px;
 
             <div class="contact-form-card">
                 <div class="contact-form-header">
-                    <h2>Send Us a Message</h2>
+                    <h3>Send Us a Message</h3>
                     <p>Fill out the form below and our team will get back to you promptly.</p>
                 </div>
+
+                @if(session('success'))
+                    <div class="contact-success">
+                        {{ session('success') }}
+                    </div>
+                @endif
+
+                @if($errors->any())
+                    <div class="contact-errors">
+                        <ul>
+                            @foreach($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
                 @endif
 
                 <form action="{{ route('contact.store') }}" method="POST">
