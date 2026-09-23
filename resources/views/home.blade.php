@@ -785,7 +785,7 @@
             margin-top: 24px;
             font-size: 17.5px;
             max-width: 500px;
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
             line-height: 1.7;
             opacity: 0;
             animation: fadeUp 0.8s var(--ease) 0.7s forwards;
@@ -877,7 +877,7 @@
 
         .vt-text span {
             font-size: 11.5px;
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
             font-family: "IBM Plex Mono";
         }
 
@@ -1185,7 +1185,7 @@
 
         .float-card span {
             font-size: 10.5px;
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
         }
 
         .fc-1 {
@@ -1229,7 +1229,7 @@
             font-size: 11px;
             letter-spacing: 0.1em;
             text-transform: uppercase;
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
             z-index: 2;
         }
 
@@ -1307,7 +1307,7 @@
 
         .trust span {
             font-size: 12.5px;
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
         }
 
         /* ---------- shared section chrome ---------- */
@@ -1338,7 +1338,7 @@
         }
 
         .sec.on-dark p {
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
         }
 
         .sec.on-dark h2,
@@ -1413,7 +1413,7 @@
 
         .about-visual .av-chip span {
             font-size: 10.5px;
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
         }
 
         .about-copy p {
@@ -1501,7 +1501,7 @@
         }
 
         .tn-card.now p {
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
         }
 
         .tn-arrow {
@@ -1727,7 +1727,7 @@
         }
 
         .why-col.solutions .why-list li {
-            color: var(--text-on-dark-mute);
+            color:#f7fbff;
         }
 
         .why-list .bullet {
@@ -1757,7 +1757,7 @@
 
         .why-col.solutions .why-stat {
             background: rgba(255, 255, 255, 0.06);
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
         }
 
         .why-stat b {
@@ -1910,7 +1910,7 @@
             justify-content: center;
             font-family: "IBM Plex Mono";
             font-weight: 600;
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
             margin-bottom: 20px;
             transition:
                 border-color 0.5s,
@@ -2000,7 +2000,7 @@
             padding: 5px 10px;
             border-radius: 6px;
             background: rgba(255, 255, 255, 0.05);
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
             border: 1px solid rgba(255, 255, 255, 0.07);
         }
 
@@ -2111,7 +2111,7 @@
 
         .globe-stats span {
             font-size: 12.5px;
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
         }
 
         .globe-svg {
@@ -2204,7 +2204,7 @@
 
         .cta-sec p {
             margin-top: 14px;
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
             max-width: 460px;
             font-size: 15px;
         }
@@ -2219,7 +2219,7 @@
         /* ---------- FOOTER ---------- */
         footer {
             background: var(--ink);
-            color: var(--text-on-dark-mute);
+            color:#f7fbff;
             padding: 90px 0 30px;
         }
 
@@ -2235,7 +2235,7 @@
             margin-top: 18px;
             font-size: 14px;
             max-width: 280px;
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
         }
 
         .foot-col h5 {
@@ -2257,7 +2257,7 @@
         .foot-col a,
         .foot-col li {
             font-size: 14px;
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
             transition: color 0.3s;
         }
 
@@ -2393,8 +2393,6 @@
             margin-bottom: 8px;
         }
 
-        .hvs-overlay h2,
-        .hvs-overlay h3,
         .hvs-overlay h4 {
             font-family: "Space Grotesk";
             font-size: 18px;
@@ -2405,7 +2403,7 @@
 
         .hvs-overlay p {
             font-size: 12px;
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
             margin-top: 4px;
             font-family: "IBM Plex Mono";
         }
@@ -2496,7 +2494,7 @@
             z-index: 4;
             font-family: "IBM Plex Mono";
             font-size: 11px;
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
             background: rgba(16, 31, 53, 0.6);
             border: 1px solid rgba(255, 255, 255, 0.1);
             padding: 5px 10px;
@@ -2633,7 +2631,7 @@
         .video-fallback p {
             max-width: 460px;
             font-size: 14px;
-            color: var(--text-on-dark-mute);
+            color: #f7fbff;
         }
 
         .video-fallback code {
@@ -2835,6 +2833,54 @@
 
             .sec {
                 padding: 80px 0;
+            }
+
+            .cta-sec {
+                margin: 0 16px;
+            }
+        }
+
+        @media (max-width: 980px) {
+            .hero-video-slider {
+                max-width: 100%;
+                margin-top: 30px;
+            }
+
+            .hvs-container {
+                border-radius: 16px;
+            }
+
+            .hvs-slide {
+                height: 380px;
+            }
+
+            .hvs-overlay h4 {
+                font-size: 16px;
+            }
+
+            .hvs-play-btn {
+                width: 54px;
+                height: 54px;
+            }
+
+            .hvs-play-btn svg {
+                width: 18px;
+                height: 18px;
+            }
+
+            .hvs-arrow {
+                width: 36px;
+                height: 36px;
+            }
+
+            .hvs-arrow svg {
+                width: 15px;
+                height: 15px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .hero-video-slider {
                 max-width: 100%;
             }
 
@@ -2851,8 +2897,6 @@
                 padding: 20px 16px 18px;
             }
 
-            .hvs-overlay h2,
-            .hvs-overlay h3,
             .hvs-overlay h4 {
                 font-size: 15px;
             }
@@ -3033,13 +3077,13 @@
                         <span class="word"><span class="word-inner" style="animation-delay: 0.12s">Supply</span></span>
                         <span class="word"><span class="word-inner" style="animation-delay: 0.19s">&amp;</span></span>
                         <span class="word"><span class="word-inner"
-                                style="animation-delay: 0.26s">Procurement</span></span>
+                                style="animation-delay: 0.26s">Project  Procurement</span></span>
                         <span class="word"><span class="word-inner"
                                 style="animation-delay: 0.33s">Partner</span></span><br />
                         <span class="word"><span class="word-inner"
                                 style="animation-delay: 0.42s"><em>|</em></span></span>
                         <span class="word"><span class="word-inner"
-                                style="animation-delay: 0.48s">Industrial</span></span>
+                                style="animation-delay: 0.48s">Industrial </span></span>
                         <span class="word"><span class="word-inner" style="animation-delay: 0.54s">Plants,</span></span>
                         <span class="word"><span class="word-inner"
                                 style="animation-delay: 0.6s">Engineering</span></span>
@@ -3071,30 +3115,221 @@
                 <div class="hero-video-slider" id="heroVideoSlider">
                     <div class="hvs-container">
                         <div class="hvs-slides" id="hvsSlides">
-                            <div class="hvs-slide active" data-index="0">
+                            <!-- Slide 1 -->
+                            <!-- <div class="hvs-slide active" data-index="0">
+                                    <div class="hvs-video-wrap">
+                                        <video
+                                            class="hvs-video"
+                                            muted
+                                            loop
+                                            playsinline
+                                            poster="assets/slide-1-poster.jpg"
+                                        >
+                                            <source
+                                                src="assets/pearlcon-overview.mp4"
+                                                type="video/mp4"
+                                            />
+                                        </video>
+                                        <div
+                                            class="hvs-play-btn"
+                                            role="button"
+                                            tabindex="0"
+                                            aria-label="Play video 1"
+                                        >
+                                            <svg
+                                                viewBox="0 0 24 24"
+                                                fill="currentColor"
+                                            >
+                                                <path d="M8 5v14l11-7z" />
+                                            </svg>
+                                        </div>
+                                        <div class="hvs-overlay">
+                                            <span class="hvs-tag"
+                                                >Company Overview</span
+                                            >
+                                            <h2>How Pearlcon Works</h2>
+                                            <p>
+                                                1:45 · End-to-end supply and
+                                                sourcing process
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            <!-- Slide 2 -->
+                            <!-- <div class="hvs-slide" data-index="1">
+                                    <div class="hvs-video-wrap">
+                                        <video
+                                            class="hvs-video"
+                                            muted
+                                            loop
+                                            playsinline
+                                            poster="assets/slide-2-poster.jpg"
+                                        >
+                                            <source
+                                                src="assets/pearlcon-global.mp4"
+                                                type="video/mp4"
+                                            />
+                                        </video>
+                                        <div
+                                            class="hvs-play-btn"
+                                            role="button"
+                                            tabindex="0"
+                                            aria-label="Play video 2"
+                                        >
+                                            <svg
+                                                viewBox="0 0 24 24"
+                                                fill="currentColor"
+                                            >
+                                                <path d="M8 5v14l11-7z" />
+                                            </svg>
+                                        </div>
+                                        <div class="hvs-overlay">
+                                            <span class="hvs-tag"
+                                                >Global Network</span
+                                            >
+                                            <h3>Our Worldwide Operations</h3>
+                                            <p>
+                                                2:10 · UK · US · EU · Chaina
+                                                buying offices
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            <!-- Slide 3 -->
+                            <!-- <div class="hvs-slide" data-index="2">
+                                    <div class="hvs-video-wrap">
+                                        <video
+                                            class="hvs-video"
+                                            muted
+                                            loop
+                                            playsinline
+                                            poster="assets/slide-3-poster.jpg"
+                                        >
+                                            <source
+                                                src="assets/pearlcon-quality.mp4"
+                                                type="video/mp4"
+                                            />
+                                        </video>
+                                        <div
+                                            class="hvs-play-btn"
+                                            role="button"
+                                            tabindex="0"
+                                            aria-label="Play video 3"
+                                        >
+                                            <svg
+                                                viewBox="0 0 24 24"
+                                                fill="currentColor"
+                                            >
+                                                <path d="M8 5v14l11-7z" />
+                                            </svg>
+                                        </div>
+                                        <div class="hvs-overlay">
+                                            <span class="hvs-tag"
+                                                >Quality Assurance</span
+                                            >
+                                            <h4>Factory Inspection & QC</h4>
+                                            <p>
+                                                1:30 · On-site quality control
+                                                process
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            <!-- Slide 4 -->
+                            <div class="hvs-slide" data-index="3">
                                 <div class="hvs-video-wrap">
                                     <video class="hvs-video" muted loop playsinline poster="assets/img/">
                                         <source src="assets/pearlcon-delivery.mp4" type="video/mp4" />
                                     </video>
-                                    <div class="hvs-play-btn" role="button" tabindex="0" aria-label="Play video">
+                                    <div class="hvs-play-btn" role="button" tabindex="0" aria-label="Play video 4">
                                         <svg viewBox="0 0 24 24" fill="currentColor">
                                             <path d="M8 5v14l11-7z" />
                                         </svg>
                                     </div>
                                     <div class="hvs-overlay">
                                         <span class="hvs-tag">Logistics</span>
-                                        <h2>On-Time Delivery</h2>
+                                        <h3>On-Time Delivery</h3>
                                         <p>1:55 · Shipping & tracking</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- Navigation Arrows -->
+                        <!-- <button
+                                class="hvs-arrow hvs-prev"
+                                id="hvsPrev"
+                                aria-label="Previous video"
+                            >
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2.5"
+                                >
+                                    <path d="M15 18l-6-6 6-6" />
+                                </svg>
+                            </button> -->
+                        <!-- <button
+                                class="hvs-arrow hvs-next"
+                                id="hvsNext"
+                                aria-label="Next video"
+                            >
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2.5"
+                                >
+                                    <path d="M9 18l6-6-6-6" />
+                                </svg>
+                            </button> -->
+                        <!-- Dot Indicators -->
+                        <!-- <div class="hvs-dots" id="hvsDots">
+                                <button
+                                    class="hvs-dot active"
+                                    data-index="0"
+                                    aria-label="Video 1"
+                                ></button>
+                                <button
+                                    class="hvs-dot"
+                                    data-index="1"
+                                    aria-label="Video 2"
+                                ></button>
+                                <button
+                                    class="hvs-dot"
+                                    data-index="2"
+                                    aria-label="Video 3"
+                                ></button>
+                                <button
+                                    class="hvs-dot"
+                                    data-index="3"
+                                    aria-label="Video 4"
+                                ></button>
+                            </div> -->
+                        <!-- Counter -->
+                        <!-- <div class="hvs-counter" id="hvsCounter">
+                                01 / 04
+                            </div> -->
                     </div>
                 </div>
             </div>
         </div>
         <div class="scroll-cue"><span class="line"></span>Scroll</div>
     </section>
+
+    <div class="video-modal" id="videoModal" aria-hidden="true" role="dialog" aria-modal="true"
+        aria-label="Pearlcon company overview video">
+        <div class="video-modal-inner">
+            <button class="video-modal-close" id="videoModalClose" aria-label="Close video">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                </svg>
+            </button>
+            <video id="pearlconVideo" controls playsinline preload="none">
+                <source src="assets/pearlcon-overview.mp4" type="video/mp4" />
+                <track kind="captions" src="assets/pearlcon-overview.vtt" srclang="en" label="English" default />
+                Your browser does not support embedded video.
+            </video>
             <div class="video-fallback" id="videoFallback">
                 <div class="vf-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
@@ -4583,12 +4818,12 @@
                 </p>
             </div>
             <div class="cta-actions">
-                <a href="/contact" class="btn btn-primary">Contact US
+                <a href="https://pearlcon.com/contact" class="btn btn-primary">Contact US
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M5 12h14M13 6l6 6-6 6" />
                     </svg></a>
                 <a href="tel:+441234440530" class="btn btn-ghost-dark">Call +44 1234 440530</a>
-                <a href="/registration-request" class="btn btn-primary">Request a Quote
+                <a href="https://pearlcon.com/registration-request" class="btn btn-primary">Request a Quote
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M5 12h14M13 6l6 6-6 6" />
                     </svg></a>
