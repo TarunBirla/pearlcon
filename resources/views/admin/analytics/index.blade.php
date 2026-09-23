@@ -214,8 +214,13 @@
         </div>
 
         @if($visitHistory->hasPages())
-            <div class="p-3 border-top d-flex justify-content-end">
-                {{ $visitHistory->links('pagination::bootstrap-5') }}
+            <div class="p-3 border-top d-flex align-items-center justify-content-between flex-wrap gap-2">
+                <div class="text-muted fs-13">
+                    Showing <strong>{{ $visitHistory->firstItem() }}</strong> to <strong>{{ $visitHistory->lastItem() }}</strong> of <strong>{{ $visitHistory->total() }}</strong> visit logs
+                </div>
+                <div>
+                    {{ $visitHistory->links() }}
+                </div>
             </div>
         @endif
     </div>

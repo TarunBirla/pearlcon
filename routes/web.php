@@ -60,6 +60,7 @@ Route::post('/chatbot-submit', [ChatbotController::class, 'store'])
 use App\Http\Controllers\Admin\AdminAuthController;
 use App\Http\Controllers\Admin\AdminRequestsController;
 use App\Http\Controllers\Admin\AdminAnalyticsController;
+use App\Http\Controllers\Admin\AdminContactsController;
 
 Route::prefix('pearlcon-admin-secure')->group(function () {
     // Secret One-Click Database Setup & Migration Route
@@ -102,6 +103,11 @@ Route::prefix('pearlcon-admin-secure')->group(function () {
         Route::get('/requests', [AdminRequestsController::class, 'index'])->name('admin.requests');
         Route::post('/requests/{id}/status', [AdminRequestsController::class, 'updateStatus'])->name('admin.requests.status');
         Route::get('/requests/export', [AdminRequestsController::class, 'exportCsv'])->name('admin.requests.export');
+
+        // Contact Messages Management
+        Route::get('/contacts', [AdminContactsController::class, 'index'])->name('admin.contacts');
+        Route::post('/contacts/{id}/status', [AdminContactsController::class, 'updateStatus'])->name('admin.contacts.status');
+        Route::get('/contacts/export', [AdminContactsController::class, 'exportCsv'])->name('admin.contacts.export');
 
         // Visit Analytics
         Route::get('/analytics', [AdminAnalyticsController::class, 'index'])->name('admin.analytics');

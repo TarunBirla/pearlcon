@@ -204,8 +204,13 @@
         </div>
 
         @if($requests->hasPages())
-            <div class="p-3 border-top d-flex justify-content-end">
-                {{ $requests->links('pagination::bootstrap-5') }}
+            <div class="p-3 border-top d-flex align-items-center justify-content-between flex-wrap gap-2">
+                <div class="text-muted fs-13">
+                    Showing <strong>{{ $requests->firstItem() }}</strong> to <strong>{{ $requests->lastItem() }}</strong> of <strong>{{ $requests->total() }}</strong> requests
+                </div>
+                <div>
+                    {{ $requests->links() }}
+                </div>
             </div>
         @endif
     </div>
