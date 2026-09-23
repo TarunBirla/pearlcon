@@ -68,7 +68,7 @@
             --text: #13202f;
             --text-mute: #5b6672;
             --text-on-dark: #dce4ee;
-            --text-on-dark-mute: #8b9aae;
+            --text-on-dark-mute: #f7fbff;
             --line: #dce1e6;
             --radius: 14px;
             --maxw: 1240px;
@@ -3057,7 +3057,7 @@
                                 style="animation-delay: 1.1s">Solutions</span></span>
                     </h1>
                     <p class="lead">
-                       We source and deliver critical spare parts, industrial equipment and engineered solutions for Oil & Gas, Petrochemical, Process Plants, Engineering and Railway industries worldwide—leveraging a vetted network of 5,000+ manufacturers and suppliers across the UK, US, Europe, China, japan and Asia.
+                        We source and deliver critical spare parts, industrial equipment, project requirements and engineered solutions for the Oil & Gas, Petrochemical, Process Plant, Engineering and Railway industries worldwide. With a vetted network of 5,000+ manufacturers and suppliers across the UK, US, Europe, China, Japan and Asia, we provide a single, reliable sourcing partner for complex procurement requirements
                     </p>
                     <div class="hero-actions">
                         <a href="/registration-request" class="btn btn-primary">Request a Quote
