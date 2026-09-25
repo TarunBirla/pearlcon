@@ -93,6 +93,29 @@ Route::prefix('pearlcon-admin-secure')->group(function () {
         }
     })->name('admin.run_migrations');
 
+    // Secret One-Click Sitemap Generation & Cache Clear Route
+    Route::get('/update-sitemap', function () {
+        try {
+            \Illuminate\Support\Facades\Artisan::call('route:clear');
+            \Illuminate\Support\Facades\Artisan::call('config:clear');
+            \Illuminate\Support\Facades\Artisan::call('cache:clear');
+
+            \Illuminate\Support\Facades\Artisan::call('sitemap:generate');
+            $sitemapOutput = \Illuminate\Support\Facades\Artisan::output();
+
+            return response("<div style='font-family: sans-serif; padding: 30px; line-height: 1.6; max-width: 800px; margin: 40px auto; border: 1px solid #10b981; border-radius: 10px; background: #ecfdf5; color: #065f46;'>"
+                . "<h2 style='margin-top:0; color:#047857;'>✅ XML Sitemap Generated & Cache Cleared Successfully!</h2>"
+                . "<p><strong>Sitemap Output:</strong></p><pre style='background:#ffffff; padding:15px; border-radius:6px; border:1px solid #a7f3d0;'>" . e($sitemapOutput ?: 'Sitemap file updated successfully.') . "</pre>"
+                . "<p style='margin-top:20px;'><a href='/sitemap.xml' target='_blank' style='display:inline-block; background:#047857; color:#fff; text-decoration:none; padding:10px 20px; border-radius:6px; font-weight:bold;'>View Live sitemap.xml &rarr;</a></p>"
+                . "</div>");
+        } catch (\Throwable $e) {
+            return response("<div style='font-family: sans-serif; padding: 30px; line-height: 1.6; max-width: 800px; margin: 40px auto; border: 1px solid #ef4444; border-radius: 10px; background: #fef2f2; color: #991b1b;'>"
+                . "<h2 style='margin-top:0; color:#b91c1c;'>❌ Sitemap Generation Failed!</h2>"
+                . "<p><strong>Error Details:</strong></p><pre style='background:#ffffff; padding:15px; border-radius:6px; border:1px solid #fca5a5;'>" . e($e->getMessage()) . "</pre>"
+                . "</div>", 500);
+        }
+    })->name('admin.update_sitemap');
+
     // Secret Login Routes
     Route::get('/', [AdminAuthController::class, 'showLoginForm'])->name('admin.login')->middleware('guest:admin');
     Route::post('/login', [AdminAuthController::class, 'login'])->name('admin.login.submit')->middleware('guest:admin');
