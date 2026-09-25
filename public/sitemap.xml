@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://pearlconnew.nexteck.uk/</loc>
+    <loc>https://pearlcon.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://pearlconnew.nexteck.uk/about</loc>
+    <loc>https://pearlcon.com/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://pearlconnew.nexteck.uk/services</loc>
+    <loc>https://pearlcon.com/services</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://pearlconnew.nexteck.uk/products</loc>
+    <loc>https://pearlcon.com/products</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://pearlconnew.nexteck.uk/why-us</loc>
+    <loc>https://pearlcon.com/why-us</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://pearlconnew.nexteck.uk/clients</loc>
+    <loc>https://pearlcon.com/clients</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://pearlconnew.nexteck.uk/contact</loc>
+    <loc>https://pearlcon.com/contact</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
