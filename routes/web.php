@@ -15,6 +15,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\RegistrationRequestController;
 use App\Http\Controllers\ChatbotController;
+use App\Http\Controllers\SitemapController;
+
+// Dynamic XML Sitemap Route
+Route::get('/sitemap.xml', [SitemapController::class, 'index'])->name('sitemap');
 
 Route::get('/contact', function () {
     return view('contact');
