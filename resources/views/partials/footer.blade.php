@@ -104,8 +104,8 @@
                     <li><a href="mailto:sales@pearlcon.com">sales@pearlcon.com</a></li>
                     <li><a href="tel:+441234440530">+44 1234 440530</a></li>
                     <li style="margin-top: 6px; margin-bottom: 6px;">
-                        <a href="https://www.pearlconrail.co.uk" target="_blank" rel="noopener" class="rail-link-highlight">
-                            Https://www.pearlconrail.co.uk
+                        <a href="https://pearlconrail.com" target="_blank" rel="noopener" class="rail-link-highlight">
+                            https://pearlconrail.com
                         </a>
                     </li>
                     <li>
