@@ -32,6 +32,7 @@ class SitemapController extends Controller
         '/our-products' => ['priority' => '0.8', 'changefreq' => 'weekly'],
         '/brands' => ['priority' => '0.8', 'changefreq' => 'monthly'],
         '/clients' => ['priority' => '0.8', 'changefreq' => 'monthly'],
+        '/project-procurement' => ['priority' => '0.9', 'changefreq' => 'weekly'],
         '/contact' => ['priority' => '0.7', 'changefreq' => 'monthly'],
         '/registration-request' => ['priority' => '0.8', 'changefreq' => 'monthly'],
     ];

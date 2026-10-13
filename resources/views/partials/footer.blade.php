@@ -82,6 +82,7 @@
                 <ul>
                     <li><a href="/#industries">Industries</a></li>
                     <li><a href="/#why">Solutions</a></li>
+                    <li><a href="/project-procurement">Project Procurement</a></li>
                     <li><a href="/#process">Process</a></li>
                     <li><a href="/our-products">Products</a></li>
                     <li><a href="/brands">Brands</a></li>

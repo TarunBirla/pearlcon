@@ -481,6 +481,7 @@ li.has-mega.open .mega-panel {
                 <ul>
                     <li><a href="/#industries">Industries</a></li>
                     <li><a href="/#why">Solutions</a></li>
+                    <li><a href="/project-procurement">Project Procurement</a></li>
                     <li><a href="/our-products">Products</a></li>
                     <li><a href="/#process">Process</a></li>
                     <li><a href="/brands">Brands</a></li>
@@ -528,6 +529,7 @@ li.has-mega.open .mega-panel {
     </div>
     <a href="/#industries" class="mm-nav-link">Industries</a>
     <a href="/#why" class="mm-nav-link">Solutions</a>
+    <a href="/project-procurement" class="mm-nav-link">Project Procurement</a>
     <a href="/our-products" class="mm-nav-link">Products</a>
     <a href="/#process" class="mm-nav-link">Process</a>
     <a href="/brands" class="mm-nav-link">Brands</a>

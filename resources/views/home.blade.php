@@ -4377,6 +4377,14 @@
                     </div>
                 </div>
             </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="/project-procurement" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 8px;">
+                    Explore Project Procurement &amp; Supply Chain Solutions
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px;">
+                        <path d="M5 12h14M13 6l6 6-6 6" />
+                    </svg>
+                </a>
+            </div>
         </div>
     </section>
 

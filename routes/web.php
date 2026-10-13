@@ -52,6 +52,10 @@ Route::get('/clients', function () {
     return view('clients');
 })->name('clients');
 
+Route::get('/project-procurement', function () {
+    return view('project-procurement');
+})->name('project.procurement');
+
 // Chatbot Submit Route
 Route::post('/chatbot-submit', [ChatbotController::class, 'store'])
     ->name('chatbot.submit');
