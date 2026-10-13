@@ -586,6 +586,74 @@
                 padding: 8px 14px;
             }
         }
+
+        /* ---------- GLOBAL FOOTER COMPONENT ---------- */
+        footer {
+            background: var(--ink);
+            color: #f7fbff;
+            padding: 90px 0 30px;
+        }
+
+        .foot-grid {
+            display: grid;
+            grid-template-columns: 1.4fr 1fr 1fr 1fr;
+            gap: 50px;
+            padding-bottom: 60px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .foot-brand p {
+            margin-top: 18px;
+            font-size: 14px;
+            max-width: 280px;
+            color: #f7fbff;
+            line-height: 1.6;
+        }
+
+        .foot-col h5 {
+            font-family: "IBM Plex Mono", monospace;
+            font-size: 11px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 600;
+            margin-bottom: 18px;
+        }
+
+        .foot-col ul {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .foot-col a,
+        .foot-col li {
+            font-size: 14px;
+            color: #f7fbff;
+            transition: color 0.3s;
+        }
+
+        .foot-col a:hover {
+            color: #fff;
+        }
+
+        .foot-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 28px;
+            font-size: 12.5px;
+            flex-wrap: wrap;
+            gap: 12px;
+            color: #f7fbff;
+        }
+
+        @media (max-width: 820px) {
+            .foot-grid {
+                grid-template-columns: 1fr;
+                gap: 34px;
+            }
+        }
     </style>
 
     <!-- Schema.org JSON-LD -->
